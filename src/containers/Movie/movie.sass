@@ -1,0 +1,45 @@
+.movies_popular
+    ul
+        display: flex
+        flex-wrap: wrap
+        h3
+            margin: 0 7px 15px 0
+            display: inline-block
+        li
+            list-style: none
+            margin: 10px
+            flex: 1 1 40%
+            font-size: 14px
+            padding: 15px
+            .movie_button_trailer
+                width: 115px
+                height: 35px
+                margin: 15px 10px
+                background-color: #ebebeb
+                border: 1px solid #bcbcbc
+                outline: none
+                font-weight: bold
+                color: #1f1f1f
+                border-radius: 3px
+                &:active
+                    border-top: 2px solid #80818c
+                    border-left: 2px solid #80818c
+                    border: none
+                    box-shadow: inset 0px 0px 2px 1px #80818c
+            .movie_button_favorite
+                border: none
+                padding: 0
+                background-color: transparent
+                outline: none
+            .movie_poster
+                width: 150px
+                float: right
+                margin-left: 10px
+            .movie_favorite
+                position: relative
+                top: 4px
+                width: 20px
+                margin-right: 10px
+
+        li:hover
+            box-shadow: 0px 0px 21px 4px rgba(17, 52, 80, 0.22)

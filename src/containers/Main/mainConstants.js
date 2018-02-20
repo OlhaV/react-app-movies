@@ -1,0 +1,7 @@
+export const API_KEY = '6d9d8b7a809dc6a45e7d9741726e484f'
+export const WATCH_PAGE = 'WATCH_PAGE'
+export const POPULAR_PAGE = 'POPULAR_PAGE'
+export const CAST_PAGE = 'CAST_PAGE'
+export const FAVORITE_PAGE = 'FAVORITE_PAGE'
+export const OVERVIEW_PAGE = 'OVERVIEW_PAGE'
+export const REDIRECT = 'REDIRECT'

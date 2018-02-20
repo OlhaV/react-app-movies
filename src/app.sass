@@ -1,0 +1,38 @@
+@font-face
+    font-family: 'NotoSans'
+    src: url('./fonts/NotoSans-Regular.ttf') format('truetype')
+
+
+body, html, .container, #root, ul, li, p
+    margin: 0
+    padding: 0
+
+body
+    font-family: 'NotoSans', Arial, sans-serif
+    background-color: #eae8ea
+    font-weight: bold
+li
+    list-style: none
+
+a:link, a:visited, a:active, a:hover
+    color: #000000
+    text-decoration: none
+    .none
+        display: none
+
+.main-content
+    position: relative
+    left: 284px
+    top: 77px
+
+.header, .footer, .main-content
+    width: calc(100% - 285px)
+
+@import './components/header/header.sass'
+@import './components/sidebar/sidebar.sass'
+@import './components/footer/footer.sass'
+@import './components/List/list.sass'
+@import './containers/Movie/movie.sass'
+@import './containers/Overview/overview.sass'
+@import './containers/Section/section.sass'
+@import './containers/Watch/watch.sass'

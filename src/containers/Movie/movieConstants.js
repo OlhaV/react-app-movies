@@ -1,0 +1,4 @@
+export const GET_CURRENT_MOVIE = 'GET_CURRENT_MOVIE'
+export const FETCH_TRAILER = 'FETCH_TRAILER'
+export const ADD_TO_FAVORITE = 'ADD_TO_FAVORITE'
+export const API_KEY = '6d9d8b7a809dc6a45e7d9741726e484f'
